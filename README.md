@@ -14,6 +14,17 @@
 
 **Free structural linter for French FEC files (*Fichier des Écritures Comptables*, art. A47 A-1 LPF), as a command line tool and an MCP server.**
 
+### What file does it check?
+
+The FEC your accounting software exports (look for "FEC" or "Export DGFiP" in its year-end menu); you don't build it by hand. It is a text file named `SIRENFECAAAAMMJJ.txt` (SIREN, `FEC`, closing date), tab- or pipe-separated, with this header and one line per accounting line:
+
+```text
+JournalCode|JournalLib|EcritureNum|EcritureDate|CompteNum|CompteLib|CompAuxNum|CompAuxLib|PieceRef|PieceDate|EcritureLib|Debit|Credit|EcritureLet|DateLet|ValidDate|Montantdevise|Idevise
+VE|Ventes|000039|20250610|411000|Clients|CLI001|Atelier Durand|F2025-06|20250610|Facture F2025-06 Atelier Durand|3960,00|0,00|||20250610||
+```
+
+Dates are `AAAAMMJJ`; amounts use a decimal comma and no thousands separator. `CompAuxNum`/`CompAuxLib`, `EcritureLet`/`DateLet` and `Montantdevise`/`Idevise` may be empty, but only in pairs; every other field is required. The [FEC Checker page](https://apify.com/highfiddle/fec-checker) has the full column-by-column table. Synthetic examples are in `tests/fixtures/`.
+
 ### Install
 
 ```bash
@@ -80,6 +91,12 @@ claude mcp add --transport http fec-checker "https://mcp.apify.com/?tools=highfi
 ## Français
 
 **Linter structurel gratuit pour les FEC (*Fichier des Écritures Comptables*, art. A47 A-1 LPF), en ligne de commande et en serveur MCP.**
+
+### Quel fichier contrôle-t-il ?
+
+Le FEC exporté par votre logiciel comptable (cherchez « FEC » ou « Export DGFiP » dans le menu de clôture) ; vous ne le construisez pas à la main. C'est un fichier texte nommé `SIRENFECAAAAMMJJ.txt` (SIREN, `FEC`, date de clôture), séparé par tabulations ou barres verticales, avec l'en-tête et le type de ligne montrés plus haut.
+
+Les dates sont au format `AAAAMMJJ` ; les montants utilisent la virgule décimale, sans séparateur de milliers. `CompAuxNum`/`CompAuxLib`, `EcritureLet`/`DateLet` et `Montantdevise`/`Idevise` peuvent être vides, mais seulement par paires ; tous les autres champs sont obligatoires. La [page FEC Checker](https://apify.com/highfiddle/fec-checker) détaille chaque colonne. Des exemples fictifs sont dans `tests/fixtures/`.
 
 ### Installation
 
