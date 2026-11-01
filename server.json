@@ -8,12 +8,12 @@
         "source": "github"
     },
     "websiteUrl": "https://apify.com/highfiddle/fec-checker",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "packages": [
         {
             "registryType": "pypi",
             "identifier": "fec-lint",
-            "version": "0.1.0",
+            "version": "0.1.1",
             "transport": {
                 "type": "stdio"
             }
