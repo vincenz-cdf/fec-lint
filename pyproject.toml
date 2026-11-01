@@ -1,0 +1,43 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "fec-lint"
+version = "0.1.0"
+description = "Free structural linter for French FEC files (Fichier des Écritures Comptables), CLI + MCP server"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Vincent" }]
+requires-python = ">=3.10"
+dependencies = ["mcp>=2,<3"]
+keywords = ["fec", "comptabilite", "dgfip", "accounting", "france", "mcp"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Topic :: Office/Business :: Financial :: Accounting",
+    "Natural Language :: French",
+    "Natural Language :: English",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+
+[project.scripts]
+fec-lint = "fec_lint.cli:main"
+fec-lint-mcp = "fec_lint.mcp_server:main"
+
+[project.urls]
+Homepage = "https://github.com/vincenz-cdf/fec-lint"
+"Full pre-audit" = "https://apify.com/highfiddle/fec-checker"
+Issues = "https://github.com/vincenz-cdf/fec-lint/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/fec_lint"]
+
+[tool.hatch.build.targets.sdist]
+include = ["src/fec_lint", "tests", "README.md", "LICENSE"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

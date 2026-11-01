@@ -1,0 +1,4 @@
+* text=auto
+
+# FEC fixtures must keep their exact bytes (CRLF line endings)
+tests/fixtures/**/*.txt -text

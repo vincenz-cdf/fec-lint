@@ -1,0 +1,21 @@
+{
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+    "name": "io.github.vincenz-cdf/fec-lint",
+    "title": "fec-lint",
+    "description": "Structural linter for French FEC accounting files: name, encoding, separator, 18 headers, field formats.",
+    "repository": {
+        "url": "https://github.com/vincenz-cdf/fec-lint",
+        "source": "github"
+    },
+    "version": "0.1.0",
+    "packages": [
+        {
+            "registryType": "pypi",
+            "identifier": "fec-lint",
+            "version": "0.1.0",
+            "transport": {
+                "type": "stdio"
+            }
+        }
+    ]
+}

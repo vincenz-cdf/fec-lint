@@ -1,0 +1,215 @@
+JournalCode|JournalLib|EcritureNum|DateEcriture|CompteNum|CompteLib|CompAuxNum|CompAuxLib|PieceRef|PieceDate|EcritureLib|Credit|Debit|EcritureLet|DateLet|ValidDate|Montantdevise
+AN|A-nouveaux|000001|20250101|512000|Banque|||AN2025|20250101|Reprise des soldes|15000,00|0,00|||20250101|
+AN|A-nouveaux|000001|20250101|101000|Capital|||AN2025|20250101|Reprise des soldes|0,00|15000,00|||20250101|
+AC|Achats|000002|20250103|613200|Locations immobilieres|||FL01|20250103|Facture FL01 SCI Les Tilleuls|1200,00|0,00|||20250103|
+AC|Achats|000002|20250103|445660|TVA deductible sur ABS|||FL01|20250103|Facture FL01 SCI Les Tilleuls|240,00|0,00|||20250103|
+AC|Achats|000002|20250103|401000|Fournisseurs|FOU002|SCI Les Tilleuls|FL01|20250103|Facture FL01 SCI Les Tilleuls|0,00|1440,00|||20250103|
+VE|Ventes|000003|20250110|411000|Clients|CLI002|Boulangerie Martin|F2025-01|20250110|Facture F2025-01 Boulangerie Martin|3060,00|0,00|||20250110|
+VE|Ventes|000003|20250110|706000|Prestations de services|||F2025-01|20250110|Facture F2025-01 Boulangerie Martin|0,00|2550,00|||20250110|
+VE|Ventes|000003|20250110|445710|TVA collectee|||F2025-01|20250110|Facture F2025-01 Boulangerie Martin|0,00|510,00|||20250110|
+AC|Achats|000004|20250110|626000|Frais postaux et telecom|||FT01|20250110|Facture FT01 Telecom Ouest|89,90|0,00|||20250110|
+AC|Achats|000004|20250110|445660|TVA deductible sur ABS|||FT01|20250110|Facture FT01 Telecom Ouest|17,98|0,00|||20250110|
+AC|Achats|000004|20250110|401000|Fournisseurs|FOU003|Telecom Ouest|FT01|20250110|Facture FT01 Telecom Ouest|0,00|107,88|||20250110|
+BQ|Banque|000005|20250120|401000|Fournisseurs|FOU002|SCI Les Tilleuls|PL01|20250120|Paiement SCI Les Tilleuls|1440,00|0,00|||20250120|
+BQ|Banque|000005|20250120|512000|Banque|||PL01|20250120|Paiement SCI Les Tilleuls|0,00|1440,00|||20250120|
+BQ|Banque|000006|20250124|512000|Banque|||RC01|20250124|Reglement Boulangerie Martin|3060,00|0,00|||20250124|
+BQ|Banque|000006|20250124|411000|Clients|CLI002|Boulangerie Martin|RC01|20250124|Reglement Boulangerie Martin|0,00|3060,00|||20250124|
+OD|Operations diverses|000007|20250128|641000|Remunerations du personnel|||SAL01|20250128|Salaires du mois|2100,00|0,00|||20250128|
+OD|Operations diverses|000007|20250128|421000|Personnel remunerations dues|||SAL01|20250128|Salaires du mois|0,00|2100,00|||20250128|
+BQ|Banque|000008|20250128|421000|Personnel remunerations dues|||SAL01V|20250128|Virement salaires|2100,00|0,00|||20250128|
+BQ|Banque|000008|20250128|512000|Banque|||SAL01V|20250128|Virement salaires|0,00|2100,00|||20250128|
+AC|Achats|000009|20250205|613200|Locations immobilieres|||FL02|20250205|Facture FL02 SCI Les Tilleuls|1200,00|0,00|||20250205|
+AC|Achats|000009|20250205|445660|TVA deductible sur ABS|||FL02|20250205|Facture FL02 SCI Les Tilleuls|240,00|0,00|||20250205|
+AC|Achats|000009|20250205|401000|Fournisseurs|FOU002|SCI Les Tilleuls|FL02|20250205|Facture FL02 SCI Les Tilleuls|0,00|1440,00|||20250205|
+VE|Ventes|000010|20250210|411000|Clients|CLI003|Cabinet Lefevre|F2025-02|20250210|Facture F2025-02 Cabinet Lefevre|3240,00|0,00|||20250210|
+VE|Ventes|000010|20250210|706000|Prestations de services|||F2025-02|20250210|Facture F2025-02 Cabinet Lefevre|0,00|2700,00|||20250210|
+VE|Ventes|000010|20250210|445710|TVA collectee|||F2025-02|20250210|Facture F2025-02 Cabinet Lefevre|0,00|540,00|||20250210|
+AC|Achats|000011|20250212|626000|Frais postaux et telecom|||FT02|20250212|Facture FT02 Telecom Ouest|89,90|0,00|||20250212|
+AC|Achats|000011|20250212|445660|TVA deductible sur ABS|||FT02|20250212|Facture FT02 Telecom Ouest|17,98|0,00|||20250212|
+AC|Achats|000011|20250212|401000|Fournisseurs|FOU003|Telecom Ouest|FT02|20250212|Facture FT02 Telecom Ouest|0,00|107,88|||20250212|
+BQ|Banque|000012|20250220|401000|Fournisseurs|FOU002|SCI Les Tilleuls|PL02|20250220|Paiement SCI Les Tilleuls|1440,00|0,00|||20250220|
+BQ|Banque|000012|20250220|512000|Banque|||PL02|20250220|Paiement SCI Les Tilleuls|0,00|1440,00|||20250220|
+BQ|Banque|000013|20250225|512000|Banque|||RC02|20250225|Reglement Cabinet Lefevre|3240,00|0,00|||20250225|
+BQ|Banque|000013|20250225|411000|Clients|CLI003|Cabinet Lefevre|RC02|20250225|Reglement Cabinet Lefevre|0,00|3240,00|||20250225|
+OD|Operations diverses|000014|20250228|641000|Remunerations du personnel|||SAL02|20250228|Salaires du mois|2100,00|0,00|||20250228|
+OD|Operations diverses|000014|20250228|421000|Personnel remunerations dues|||SAL02|20250228|Salaires du mois|0,00|2100,00|||20250228|
+BQ|Banque|000015|20250228|421000|Personnel remunerations dues|||SAL02V|20250228|Virement salaires|2100,00|0,00|||20250228|
+BQ|Banque|000015|20250228|512000|Banque|||SAL02V|20250228|Virement salaires|0,00|2100,00|||20250228|
+AC|Achats|000016|20250305|613200|Locations immobilieres|||FL03|20250305|Facture FL03 SCI Les Tilleuls|1200,00|0,00|||20250305|
+AC|Achats|000016|20250305|445660|TVA deductible sur ABS|||FL03|20250305|Facture FL03 SCI Les Tilleuls|240,00|0,00|||20250305|
+AC|Achats|000016|20250305|401000|Fournisseurs|FOU002|SCI Les Tilleuls|FL03|20250305|Facture FL03 SCI Les Tilleuls|0,00|1440,00|||20250305|
+VE|Ventes|000017|20250310|411000|Clients|CLI001|Atelier Durand|F2025-03|20250310|Facture F2025-03 Atelier Durand|3420,00|0,00|||20250310|
+VE|Ventes|000017|20250310|706000|Prestations de services|||F2025-03|20250310|Facture F2025-03 Atelier Durand|0,00|2850,00|||20250310|
+VE|Ventes|000017|20250310|445710|TVA collectee|||F2025-03|20250310|Facture F2025-03 Atelier Durand|0,00|570,00|||20250310|
+AC|Achats|000018|20250312|626000|Frais postaux et telecom|||FT03|20250312|Facture FT03 Telecom Ouest|89,90|0,00|||20250312|
+AC|Achats|000018|20250312|445660|TVA deductible sur ABS|||FT03|20250312|Facture FT03 Telecom Ouest|17,98|0,00|||20250312|
+AC|Achats|000018|20250312|401000|Fournisseurs|FOU003|Telecom Ouest|FT03|20250312|Facture FT03 Telecom Ouest|0,00|107,88|||20250312|
+AC|Achats|000019|20250314|606100|Fournitures non stockables|||FB03|20250314|Facture FB03 Bureau Plus|235,40|0,00|||20250314|
+AC|Achats|000019|20250314|445660|TVA deductible sur ABS|||FB03|20250314|Facture FB03 Bureau Plus|47,08|0,00|||20250314|
+AC|Achats|000019|20250314|401000|Fournisseurs|FOU001|Bureau Plus|FB03|20250314|Facture FB03 Bureau Plus|0,00|282,48|||20250314|
+BQ|Banque|000020|20250320|401000|Fournisseurs|FOU002|SCI Les Tilleuls|PL03|20250320|Paiement SCI Les Tilleuls|1440,00|0,00|||20250320|
+BQ|Banque|000020|20250320|512000|Banque|||PL03|20250320|Paiement SCI Les Tilleuls|0,00|1440,00|||20250320|
+BQ|Banque|000021|20250325|512000|Banque|||RC03|20250325|Reglement Atelier Durand|3420,00|0,00|||20250325|
+BQ|Banque|000021|20250325|411000|Clients|CLI001|Atelier Durand|RC03|20250325|Reglement Atelier Durand|0,00|3420,00|||20250325|
+OD|Operations diverses|000022|20250328|641000|Remunerations du personnel|||SAL03|20250328|Salaires du mois|2100,00|0,00|||20250328|
+OD|Operations diverses|000022|20250328|421000|Personnel remunerations dues|||SAL03|20250328|Salaires du mois|0,00|2100,00|||20250328|
+BQ|Banque|000023|20250328|421000|Personnel remunerations dues|||SAL03V|20250328|Virement salaires|2100,00|0,00|||20250328|
+BQ|Banque|000023|20250328|512000|Banque|||SAL03V|20250328|Virement salaires|0,00|2100,00|||20250328|
+AC|Achats|000024|20250404|613200|Locations immobilieres|||FL04|20250404|Facture FL04 SCI Les Tilleuls|1200,00|0,00|||20250404|
+AC|Achats|000024|20250404|445660|TVA deductible sur ABS|||FL04|20250404|Facture FL04 SCI Les Tilleuls|240,00|0,00|||20250404|
+AC|Achats|000024|20250404|401000|Fournisseurs|FOU002|SCI Les Tilleuls|FL04|20250404|Facture FL04 SCI Les Tilleuls|0,00|1440,00|||20250404|
+VE|Ventes|000025|20250410|411000|Clients|CLI002|Boulangerie Martin|F2025-04|20250410|Facture F2025-04 Boulangerie Martin|3600,00|0,00|||20250410|
+VE|Ventes|000025|20250410|706000|Prestations de services|||F2025-04|20250410|Facture F2025-04 Boulangerie Martin|0,00|3000,00|||20250410|
+VE|Ventes|000025|20250410|445710|TVA collectee|||F2025-04|20250410|Facture F2025-04 Boulangerie Martin|0,00|600,00|||20250410|
+AC|Achats|000026|20250411|626000|Frais postaux et telecom|||FT04|20250411|Facture FT04 Telecom Ouest|89,90|0,00|||20250411|
+AC|Achats|000026|20250411|445660|TVA deductible sur ABS|||FT04|20250411|Facture FT04 Telecom Ouest|17,98|0,00|||20250411|
+AC|Achats|000026|20250411|401000|Fournisseurs|FOU003|Telecom Ouest|FT04|20250411|Facture FT04 Telecom Ouest|0,00|107,88|||20250411|
+BQ|Banque|000027|20250418|401000|Fournisseurs|FOU002|SCI Les Tilleuls|PL04|20250418|Paiement SCI Les Tilleuls|1440,00|0,00|||20250418|
+BQ|Banque|000027|20250418|512000|Banque|||PL04|20250418|Paiement SCI Les Tilleuls|0,00|1440,00|||20250418|
+BQ|Banque|000028|20250425|512000|Banque|||RC04|20250425|Reglement Boulangerie Martin|3600,00|0,00|||20250425|
+BQ|Banque|000028|20250425|411000|Clients|CLI002|Boulangerie Martin|RC04|20250425|Reglement Boulangerie Martin|0,00|3600,00|||20250425|
+OD|Operations diverses|000029|20250428|641000|Remunerations du personnel|||SAL04|20250428|Salaires du mois|2100,00|0,00|||20250428|
+OD|Operations diverses|000029|20250428|421000|Personnel remunerations dues|||SAL04|20250428|Salaires du mois|0,00|2100,00|||20250428|
+BQ|Banque|000030|20250428|421000|Personnel remunerations dues|||SAL04V|20250428|Virement salaires|2100,00|0,00|||20250428|
+BQ|Banque|000030|20250428|512000|Banque|||SAL04V|20250428|Virement salaires|0,00|2100,00|||20250428|
+AC|Achats|000031|20250505|613200|Locations immobilieres|||FL05|20250505|Facture FL05 SCI Les Tilleuls|1200,00|0,00|||20250505|
+AC|Achats|000031|20250505|445660|TVA deductible sur ABS|||FL05|20250505|Facture FL05 SCI Les Tilleuls|240,00|0,00|||20250505|
+AC|Achats|000031|20250505|401000|Fournisseurs|FOU002|SCI Les Tilleuls|FL05|20250505|Facture FL05 SCI Les Tilleuls|0,00|1440,00|||20250505|
+VE|Ventes|000032|20250509|411000|Clients|CLI003|Cabinet Lefevre|F2025-05|20250509|Facture F2025-05 Cabinet Lefevre|3780,00|0,00|||20250509|
+VE|Ventes|000032|20250509|706000|Prestations de services|||F2025-05|20250509|Facture F2025-05 Cabinet Lefevre|0,00|3150,00|||20250509|
+VE|Ventes|000032|20250509|445710|TVA collectee|||F2025-05|20250509|Facture F2025-05 Cabinet Lefevre|0,00|630,00|||20250509|
+AC|Achats|000033|20250512|626000|Frais postaux et telecom|||FT05|20250512|Facture FT05 Telecom Ouest|89,90|0,00|||20250512|
+AC|Achats|000033|20250512|445660|TVA deductible sur ABS|||FT05|20250512|Facture FT05 Telecom Ouest|17,98|0,00|||20250512|
+AC|Achats|000033|20250512|401000|Fournisseurs|FOU003|Telecom Ouest|FT05|20250512|Facture FT05 Telecom Ouest|0,00|107,88|||20250512|
+BQ|Banque|000034|20250520|401000|Fournisseurs|FOU002|SCI Les Tilleuls|PL05|20250520|Paiement SCI Les Tilleuls|1440,00|0,00|||20250520|
+BQ|Banque|000034|20250520|512000|Banque|||PL05|20250520|Paiement SCI Les Tilleuls|0,00|1440,00|||20250520|
+BQ|Banque|000035|20250523|512000|Banque|||RC05|20250523|Reglement Cabinet Lefevre|3780,00|0,00|||20250523|
+BQ|Banque|000035|20250523|411000|Clients|CLI003|Cabinet Lefevre|RC05|20250523|Reglement Cabinet Lefevre|0,00|3780,00|||20250523|
+OD|Operations diverses|000036|20250528|641000|Remunerations du personnel|||SAL05|20250528|Salaires du mois|2100,00|0,00|||20250528|
+OD|Operations diverses|000036|20250528|421000|Personnel remunerations dues|||SAL05|20250528|Salaires du mois|0,00|2100,00|||20250528|
+BQ|Banque|000037|20250528|421000|Personnel remunerations dues|||SAL05V|20250528|Virement salaires|2100,00|0,00|||20250528|
+BQ|Banque|000037|20250528|512000|Banque|||SAL05V|20250528|Virement salaires|0,00|2100,00|||20250528|
+AC|Achats|000038|20250605|613200|Locations immobilieres|||FL06|20250605|Facture FL06 SCI Les Tilleuls|1200,00|0,00|||20250605|
+AC|Achats|000038|20250605|445660|TVA deductible sur ABS|||FL06|20250605|Facture FL06 SCI Les Tilleuls|240,00|0,00|||20250605|
+AC|Achats|000038|20250605|401000|Fournisseurs|FOU002|SCI Les Tilleuls|FL06|20250605|Facture FL06 SCI Les Tilleuls|0,00|1440,00|||20250605|
+VE|Ventes|000039|20250610|411000|Clients|CLI001|Atelier Durand|F2025-06|20250610|Facture F2025-06 Atelier Durand|3960,00|0,00|||20250610|
+VE|Ventes|000039|20250610|706000|Prestations de services|||F2025-06|20250610|Facture F2025-06 Atelier Durand|0,00|3300,00|||20250610|
+VE|Ventes|000039|20250610|445710|TVA collectee|||F2025-06|20250610|Facture F2025-06 Atelier Durand|0,00|660,00|||20250610|
+AC|Achats|000040|20250612|626000|Frais postaux et telecom|||FT06|20250612|Facture FT06 Telecom Ouest|89,90|0,00|||20250612|
+AC|Achats|000040|20250612|445660|TVA deductible sur ABS|||FT06|20250612|Facture FT06 Telecom Ouest|17,98|0,00|||20250612|
+AC|Achats|000040|20250612|401000|Fournisseurs|FOU003|Telecom Ouest|FT06|20250612|Facture FT06 Telecom Ouest|0,00|107,88|||20250612|
+AC|Achats|000041|20250613|606100|Fournitures non stockables|||FB06|20250613|Facture FB06 Bureau Plus|235,40|0,00|||20250613|
+AC|Achats|000041|20250613|445660|TVA deductible sur ABS|||FB06|20250613|Facture FB06 Bureau Plus|47,08|0,00|||20250613|
+AC|Achats|000041|20250613|401000|Fournisseurs|FOU001|Bureau Plus|FB06|20250613|Facture FB06 Bureau Plus|0,00|282,48|||20250613|
+BQ|Banque|000042|20250620|401000|Fournisseurs|FOU002|SCI Les Tilleuls|PL06|20250620|Paiement SCI Les Tilleuls|1440,00|0,00|||20250620|
+BQ|Banque|000042|20250620|512000|Banque|||PL06|20250620|Paiement SCI Les Tilleuls|0,00|1440,00|||20250620|
+BQ|Banque|000043|20250625|512000|Banque|||RC06|20250625|Reglement Atelier Durand|3960,00|0,00|||20250625|
+BQ|Banque|000043|20250625|411000|Clients|CLI001|Atelier Durand|RC06|20250625|Reglement Atelier Durand|0,00|3960,00|||20250625|
+OD|Operations diverses|000044|20250627|641000|Remunerations du personnel|||SAL06|20250627|Salaires du mois|2100,00|0,00|||20250627|
+OD|Operations diverses|000044|20250627|421000|Personnel remunerations dues|||SAL06|20250627|Salaires du mois|0,00|2100,00|||20250627|
+BQ|Banque|000045|20250627|421000|Personnel remunerations dues|||SAL06V|20250627|Virement salaires|2100,00|0,00|||20250627|
+BQ|Banque|000045|20250627|512000|Banque|||SAL06V|20250627|Virement salaires|0,00|2100,00|||20250627|
+AC|Achats|000046|20250704|613200|Locations immobilieres|||FL07|20250704|Facture FL07 SCI Les Tilleuls|1200,00|0,00|||20250704|
+AC|Achats|000046|20250704|445660|TVA deductible sur ABS|||FL07|20250704|Facture FL07 SCI Les Tilleuls|240,00|0,00|||20250704|
+AC|Achats|000046|20250704|401000|Fournisseurs|FOU002|SCI Les Tilleuls|FL07|20250704|Facture FL07 SCI Les Tilleuls|0,00|1440,00|||20250704|
+VE|Ventes|000047|20250710|411000|Clients|CLI002|Boulangerie Martin|F2025-07|20250710|Facture F2025-07 Boulangerie Martin|4140,00|0,00|||20250710|
+VE|Ventes|000047|20250710|706000|Prestations de services|||F2025-07|20250710|Facture F2025-07 Boulangerie Martin|0,00|3450,00|||20250710|
+VE|Ventes|000047|20250710|445710|TVA collectee|||F2025-07|20250710|Facture F2025-07 Boulangerie Martin|0,00|690,00|||20250710|
+AC|Achats|000048|20250711|626000|Frais postaux et telecom|||FT07|20250711|Facture FT07 Telecom Ouest|89,90|0,00|||20250711|
+AC|Achats|000048|20250711|445660|TVA deductible sur ABS|||FT07|20250711|Facture FT07 Telecom Ouest|17,98|0,00|||20250711|
+AC|Achats|000048|20250711|401000|Fournisseurs|FOU003|Telecom Ouest|FT07|20250711|Facture FT07 Telecom Ouest|0,00|107,88|||20250711|
+BQ|Banque|000049|20250718|401000|Fournisseurs|FOU002|SCI Les Tilleuls|PL07|20250718|Paiement SCI Les Tilleuls|1440,00|0,00|||20250718|
+BQ|Banque|000049|20250718|512000|Banque|||PL07|20250718|Paiement SCI Les Tilleuls|0,00|1440,00|||20250718|
+BQ|Banque|000050|20250725|512000|Banque|||RC07|20250725|Reglement Boulangerie Martin|4140,00|0,00|||20250725|
+BQ|Banque|000050|20250725|411000|Clients|CLI002|Boulangerie Martin|RC07|20250725|Reglement Boulangerie Martin|0,00|4140,00|||20250725|
+OD|Operations diverses|000051|20250728|641000|Remunerations du personnel|||SAL07|20250728|Salaires du mois|2100,00|0,00|||20250728|
+OD|Operations diverses|000051|20250728|421000|Personnel remunerations dues|||SAL07|20250728|Salaires du mois|0,00|2100,00|||20250728|
+BQ|Banque|000052|20250728|421000|Personnel remunerations dues|||SAL07V|20250728|Virement salaires|2100,00|0,00|||20250728|
+BQ|Banque|000052|20250728|512000|Banque|||SAL07V|20250728|Virement salaires|0,00|2100,00|||20250728|
+AC|Achats|000053|20250805|613200|Locations immobilieres|||FL08|20250805|Facture FL08 SCI Les Tilleuls|1200,00|0,00|||20250805|
+AC|Achats|000053|20250805|445660|TVA deductible sur ABS|||FL08|20250805|Facture FL08 SCI Les Tilleuls|240,00|0,00|||20250805|
+AC|Achats|000053|20250805|401000|Fournisseurs|FOU002|SCI Les Tilleuls|FL08|20250805|Facture FL08 SCI Les Tilleuls|0,00|1440,00|||20250805|
+VE|Ventes|000054|20250808|411000|Clients|CLI003|Cabinet Lefevre|F2025-08|20250808|Facture F2025-08 Cabinet Lefevre|4320,00|0,00|||20250808|
+VE|Ventes|000054|20250808|706000|Prestations de services|||F2025-08|20250808|Facture F2025-08 Cabinet Lefevre|0,00|3600,00|||20250808|
+VE|Ventes|000054|20250808|445710|TVA collectee|||F2025-08|20250808|Facture F2025-08 Cabinet Lefevre|0,00|720,00|||20250808|
+AC|Achats|000055|20250812|626000|Frais postaux et telecom|||FT08|20250812|Facture FT08 Telecom Ouest|89,90|0,00|||20250812|
+AC|Achats|000055|20250812|445660|TVA deductible sur ABS|||FT08|20250812|Facture FT08 Telecom Ouest|17,98|0,00|||20250812|
+AC|Achats|000055|20250812|401000|Fournisseurs|FOU003|Telecom Ouest|FT08|20250812|Facture FT08 Telecom Ouest|0,00|107,88|||20250812|
+BQ|Banque|000056|20250820|401000|Fournisseurs|FOU002|SCI Les Tilleuls|PL08|20250820|Paiement SCI Les Tilleuls|1440,00|0,00|||20250820|
+BQ|Banque|000056|20250820|512000|Banque|||PL08|20250820|Paiement SCI Les Tilleuls|0,00|1440,00|||20250820|
+BQ|Banque|000057|20250825|512000|Banque|||RC08|20250825|Reglement Cabinet Lefevre|4320,00|0,00|||20250825|
+BQ|Banque|000057|20250825|411000|Clients|CLI003|Cabinet Lefevre|RC08|20250825|Reglement Cabinet Lefevre|0,00|4320,00|||20250825|
+OD|Operations diverses|000058|20250828|641000|Remunerations du personnel|||SAL08|20250828|Salaires du mois|2100,00|0,00|||20250828|
+OD|Operations diverses|000058|20250828|421000|Personnel remunerations dues|||SAL08|20250828|Salaires du mois|0,00|2100,00|||20250828|
+BQ|Banque|000059|20250828|421000|Personnel remunerations dues|||SAL08V|20250828|Virement salaires|2100,00|0,00|||20250828|
+BQ|Banque|000059|20250828|512000|Banque|||SAL08V|20250828|Virement salaires|0,00|2100,00|||20250828|
+AC|Achats|000060|20250905|613200|Locations immobilieres|||FL09|20250905|Facture FL09 SCI Les Tilleuls|1200,00|0,00|||20250905|
+AC|Achats|000060|20250905|445660|TVA deductible sur ABS|||FL09|20250905|Facture FL09 SCI Les Tilleuls|240,00|0,00|||20250905|
+AC|Achats|000060|20250905|401000|Fournisseurs|FOU002|SCI Les Tilleuls|FL09|20250905|Facture FL09 SCI Les Tilleuls|0,00|1440,00|||20250905|
+VE|Ventes|000061|20250910|411000|Clients|CLI001|Atelier Durand|F2025-09|20250910|Facture F2025-09 Atelier Durand|4500,00|0,00|||20250910|
+VE|Ventes|000061|20250910|706000|Prestations de services|||F2025-09|20250910|Facture F2025-09 Atelier Durand|0,00|3750,00|||20250910|
+VE|Ventes|000061|20250910|445710|TVA collectee|||F2025-09|20250910|Facture F2025-09 Atelier Durand|0,00|750,00|||20250910|
+AC|Achats|000062|20250912|626000|Frais postaux et telecom|||FT09|20250912|Facture FT09 Telecom Ouest|89,90|0,00|||20250912|
+AC|Achats|000062|20250912|445660|TVA deductible sur ABS|||FT09|20250912|Facture FT09 Telecom Ouest|17,98|0,00|||20250912|
+AC|Achats|000062|20250912|401000|Fournisseurs|FOU003|Telecom Ouest|FT09|20250912|Facture FT09 Telecom Ouest|0,00|107,88|||20250912|
+AC|Achats|000063|20250915|606100|Fournitures non stockables|||FB09|20250915|Facture FB09 Bureau Plus|235,40|0,00|||20250915|
+AC|Achats|000063|20250915|445660|TVA deductible sur ABS|||FB09|20250915|Facture FB09 Bureau Plus|47,08|0,00|||20250915|
+AC|Achats|000063|20250915|401000|Fournisseurs|FOU001|Bureau Plus|FB09|20250915|Facture FB09 Bureau Plus|0,00|282,48|||20250915|
+BQ|Banque|000064|20250919|401000|Fournisseurs|FOU002|SCI Les Tilleuls|PL09|20250919|Paiement SCI Les Tilleuls|1440,00|0,00|||20250919|
+BQ|Banque|000064|20250919|512000|Banque|||PL09|20250919|Paiement SCI Les Tilleuls|0,00|1440,00|||20250919|
+BQ|Banque|000065|20250925|512000|Banque|||RC09|20250925|Reglement Atelier Durand|4500,00|0,00|||20250925|
+BQ|Banque|000065|20250925|411000|Clients|CLI001|Atelier Durand|RC09|20250925|Reglement Atelier Durand|0,00|4500,00|||20250925|
+OD|Operations diverses|000066|20250926|641000|Remunerations du personnel|||SAL09|20250926|Salaires du mois|2100,00|0,00|||20250926|
+OD|Operations diverses|000066|20250926|421000|Personnel remunerations dues|||SAL09|20250926|Salaires du mois|0,00|2100,00|||20250926|
+BQ|Banque|000067|20250926|421000|Personnel remunerations dues|||SAL09V|20250926|Virement salaires|2100,00|0,00|||20250926|
+BQ|Banque|000067|20250926|512000|Banque|||SAL09V|20250926|Virement salaires|0,00|2100,00|||20250926|
+AC|Achats|000068|20251003|613200|Locations immobilieres|||FL10|20251003|Facture FL10 SCI Les Tilleuls|1200,00|0,00|||20251003|
+AC|Achats|000068|20251003|445660|TVA deductible sur ABS|||FL10|20251003|Facture FL10 SCI Les Tilleuls|240,00|0,00|||20251003|
+AC|Achats|000068|20251003|401000|Fournisseurs|FOU002|SCI Les Tilleuls|FL10|20251003|Facture FL10 SCI Les Tilleuls|0,00|1440,00|||20251003|
+VE|Ventes|000069|20251010|411000|Clients|CLI002|Boulangerie Martin|F2025-10|20251010|Facture F2025-10 Boulangerie Martin|4680,00|0,00|||20251010|
+VE|Ventes|000069|20251010|706000|Prestations de services|||F2025-10|20251010|Facture F2025-10 Boulangerie Martin|0,00|3900,00|||20251010|
+VE|Ventes|000069|20251010|445710|TVA collectee|||F2025-10|20251010|Facture F2025-10 Boulangerie Martin|0,00|780,00|||20251010|
+AC|Achats|000070|20251010|626000|Frais postaux et telecom|||FT10|20251010|Facture FT10 Telecom Ouest|89,90|0,00|||20251010|
+AC|Achats|000070|20251010|445660|TVA deductible sur ABS|||FT10|20251010|Facture FT10 Telecom Ouest|17,98|0,00|||20251010|
+AC|Achats|000070|20251010|401000|Fournisseurs|FOU003|Telecom Ouest|FT10|20251010|Facture FT10 Telecom Ouest|0,00|107,88|||20251010|
+BQ|Banque|000071|20251020|401000|Fournisseurs|FOU002|SCI Les Tilleuls|PL10|20251020|Paiement SCI Les Tilleuls|1440,00|0,00|||20251020|
+BQ|Banque|000071|20251020|512000|Banque|||PL10|20251020|Paiement SCI Les Tilleuls|0,00|1440,00|||20251020|
+BQ|Banque|000072|20251024|512000|Banque|||RC10|20251024|Reglement Boulangerie Martin|4680,00|0,00|||20251024|
+BQ|Banque|000072|20251024|411000|Clients|CLI002|Boulangerie Martin|RC10|20251024|Reglement Boulangerie Martin|0,00|4680,00|||20251024|
+OD|Operations diverses|000073|20251028|641000|Remunerations du personnel|||SAL10|20251028|Salaires du mois|2100,00|0,00|||20251028|
+OD|Operations diverses|000073|20251028|421000|Personnel remunerations dues|||SAL10|20251028|Salaires du mois|0,00|2100,00|||20251028|
+BQ|Banque|000074|20251028|421000|Personnel remunerations dues|||SAL10V|20251028|Virement salaires|2100,00|0,00|||20251028|
+BQ|Banque|000074|20251028|512000|Banque|||SAL10V|20251028|Virement salaires|0,00|2100,00|||20251028|
+AC|Achats|000075|20251105|613200|Locations immobilieres|||FL11|20251105|Facture FL11 SCI Les Tilleuls|1200,00|0,00|||20251105|
+AC|Achats|000075|20251105|445660|TVA deductible sur ABS|||FL11|20251105|Facture FL11 SCI Les Tilleuls|240,00|0,00|||20251105|
+AC|Achats|000075|20251105|401000|Fournisseurs|FOU002|SCI Les Tilleuls|FL11|20251105|Facture FL11 SCI Les Tilleuls|0,00|1440,00|||20251105|
+VE|Ventes|000076|20251110|411000|Clients|CLI003|Cabinet Lefevre|F2025-11|20251110|Facture F2025-11 Cabinet Lefevre|4860,00|0,00|||20251110|
+VE|Ventes|000076|20251110|706000|Prestations de services|||F2025-11|20251110|Facture F2025-11 Cabinet Lefevre|0,00|4050,00|||20251110|
+VE|Ventes|000076|20251110|445710|TVA collectee|||F2025-11|20251110|Facture F2025-11 Cabinet Lefevre|0,00|810,00|||20251110|
+AC|Achats|000077|20251112|626000|Frais postaux et telecom|||FT11|20251112|Facture FT11 Telecom Ouest|89,90|0,00|||20251112|
+AC|Achats|000077|20251112|445660|TVA deductible sur ABS|||FT11|20251112|Facture FT11 Telecom Ouest|17,98|0,00|||20251112|
+AC|Achats|000077|20251112|401000|Fournisseurs|FOU003|Telecom Ouest|FT11|20251112|Facture FT11 Telecom Ouest|0,00|107,88|||20251112|
+BQ|Banque|000078|20251120|401000|Fournisseurs|FOU002|SCI Les Tilleuls|PL11|20251120|Paiement SCI Les Tilleuls|1440,00|0,00|||20251120|
+BQ|Banque|000078|20251120|512000|Banque|||PL11|20251120|Paiement SCI Les Tilleuls|0,00|1440,00|||20251120|
+BQ|Banque|000079|20251125|512000|Banque|||RC11|20251125|Reglement Cabinet Lefevre|4860,00|0,00|||20251125|
+BQ|Banque|000079|20251125|411000|Clients|CLI003|Cabinet Lefevre|RC11|20251125|Reglement Cabinet Lefevre|0,00|4860,00|||20251125|
+OD|Operations diverses|000080|20251128|641000|Remunerations du personnel|||SAL11|20251128|Salaires du mois|2100,00|0,00|||20251128|
+OD|Operations diverses|000080|20251128|421000|Personnel remunerations dues|||SAL11|20251128|Salaires du mois|0,00|2100,00|||20251128|
+BQ|Banque|000081|20251128|421000|Personnel remunerations dues|||SAL11V|20251128|Virement salaires|2100,00|0,00|||20251128|
+BQ|Banque|000081|20251128|512000|Banque|||SAL11V|20251128|Virement salaires|0,00|2100,00|||20251128|
+AC|Achats|000082|20251205|613200|Locations immobilieres|||FL12|20251205|Facture FL12 SCI Les Tilleuls|1200,00|0,00|||20251205|
+AC|Achats|000082|20251205|445660|TVA deductible sur ABS|||FL12|20251205|Facture FL12 SCI Les Tilleuls|240,00|0,00|||20251205|
+AC|Achats|000082|20251205|401000|Fournisseurs|FOU002|SCI Les Tilleuls|FL12|20251205|Facture FL12 SCI Les Tilleuls|0,00|1440,00|||20251205|
+VE|Ventes|000083|20251210|411000|Clients|CLI001|Atelier Durand|F2025-12|20251210|Facture F2025-12 Atelier Durand|5040,00|0,00|||20251210|
+VE|Ventes|000083|20251210|706000|Prestations de services|||F2025-12|20251210|Facture F2025-12 Atelier Durand|0,00|4200,00|||20251210|
+VE|Ventes|000083|20251210|445710|TVA collectee|||F2025-12|20251210|Facture F2025-12 Atelier Durand|0,00|840,00|||20251210|
+AC|Achats|000084|20251212|626000|Frais postaux et telecom|||FT12|20251212|Facture FT12 Telecom Ouest|89,90|0,00|||20251212|
+AC|Achats|000084|20251212|445660|TVA deductible sur ABS|||FT12|20251212|Facture FT12 Telecom Ouest|17,98|0,00|||20251212|
+AC|Achats|000084|20251212|401000|Fournisseurs|FOU003|Telecom Ouest|FT12|20251212|Facture FT12 Telecom Ouest|0,00|107,88|||20251212|
+AC|Achats|000085|20251215|606100|Fournitures non stockables|||FB12|20251215|Facture FB12 Bureau Plus|235,40|0,00|||20251215|
+AC|Achats|000085|20251215|445660|TVA deductible sur ABS|||FB12|20251215|Facture FB12 Bureau Plus|47,08|0,00|||20251215|
+AC|Achats|000085|20251215|401000|Fournisseurs|FOU001|Bureau Plus|FB12|20251215|Facture FB12 Bureau Plus|0,00|282,48|||20251215|
+OD|Operations diverses|000086|20251226|641000|Remunerations du personnel|||SAL12|20251226|Salaires du mois|2100,00|0,00|||20251226|
+OD|Operations diverses|000086|20251226|421000|Personnel remunerations dues|||SAL12|20251226|Salaires du mois|0,00|2100,00|||20251226|
+BQ|Banque|000087|20251226|421000|Personnel remunerations dues|||SAL12V|20251226|Virement salaires|2100,00|0,00|||20251226|
+BQ|Banque|000087|20251226|512000|Banque|||SAL12V|20251226|Virement salaires|0,00|2100,00|||20251226|
