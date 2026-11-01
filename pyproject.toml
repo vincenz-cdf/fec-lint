@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "fec-lint"
-version = "0.1.1"
+version = "0.1.2"
 description = "Free structural linter for French FEC files (Fichier des Écritures Comptables), CLI + MCP server"
 readme = "README.md"
 license = "MIT"
