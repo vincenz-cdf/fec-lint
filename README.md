@@ -56,6 +56,12 @@ Add it to your MCP client (Claude Desktop, Claude Code, Cursor…):
 
 Without `uv`, install with `pipx install fec-lint` and use `"command": "fec-lint-mcp"`. The server exposes one tool, `lint_fec(path)`, which takes a local file path and returns the same JSON as `--json`.
 
+**Full pre-audit as a hosted MCP server.** The paid FEC Checker (balance, numbering, risk signals, AI fix list) runs on Apify and is reachable over MCP. Users sign in with Apify OAuth; agents can pay with x402 by adding `&payment=x402`:
+
+```bash
+claude mcp add --transport http fec-checker "https://mcp.apify.com/?tools=highfiddle/fec-checker"
+```
+
 ### Free vs full pre-audit
 
 | Check | fec-lint (free) | [FEC Checker on Apify](https://apify.com/highfiddle/fec-checker) |
@@ -98,6 +104,8 @@ Les messages sont en anglais ; les codes de règle (`date_invalid`, `header_miss
 ### Serveur MCP
 
 Ajoutez-le à votre client MCP (Claude Desktop, Claude Code, Cursor…) avec la configuration ci-dessus. L'outil `lint_fec(path)` prend le chemin d'un fichier local et renvoie le même JSON que `--json`.
+
+**Pré-audit complet en serveur MCP hébergé.** Le FEC Checker payant (équilibre, numérotation, signaux de risque, plan de correction IA) tourne sur Apify et s'utilise en MCP via `https://mcp.apify.com/?tools=highfiddle/fec-checker` (connexion Apify OAuth ; les agents peuvent payer en x402 avec `&payment=x402`).
 
 ### Gratuit ou pré-audit complet
 
