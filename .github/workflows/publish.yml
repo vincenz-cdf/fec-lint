@@ -44,6 +44,10 @@ jobs:
           EOF
       - run: pip install build && python -m build
       - uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          # A re-run of a release (for example to retry the MCP Registry step) must not fail
+          # because this version is already on PyPI.
+          skip-existing: true
 
   mcp-registry:
     needs: pypi
